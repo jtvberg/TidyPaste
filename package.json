@@ -1,0 +1,50 @@
+{
+  "name": "TidyPaste",
+  "version": "0.1.0",
+  "description": "Tidy Pasting",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "debug": "electron --inspect=7070 .",
+    "break": "electron --inspect-brk=7070 .",
+    "buildMac": "electron-builder -m",
+    "releaseMac": "electron-builder -m -p 'onTagOrDraft'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtvberg/TidyPaste.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jtvberg/TidyPaste/issues"
+  },
+  "homepage": "https://github.com/jtvberg/TidyPaste",
+  "keywords": [
+    "Electron",
+    "clipboard"
+  ],
+  "author": "jtvberg",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^15.3.0",
+    "electron-builder": "^22.13.1",
+    "electron-notarize": "^1.1.1",
+    "electron-reload": "^1.5.0",
+    "eslint": "^8.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "electron-updater": "^4.3.9",
+    "jquery": "^3.6.0"
+  },
+  "build": {
+    "appId": "com.jtvberg.tidypaste",
+    "copyright": "Copyright jtvberg",
+    "afterSign": "./build/afterSign.js",
+    "mac": {
+      "category": "public.app-category.productivity"
+    },
+    "publish": {
+      "provider": "github"
+    }
+  }
+}
