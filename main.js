@@ -1,4 +1,4 @@
-const { app, Tray, Menu, clipboard } = require('electron')
+const { app, Tray, clipboard } = require('electron')
 const path = require('path')
 
 // Tray icon
@@ -16,23 +16,10 @@ const createTray = () => {
   })
 }
 
-const createMenu = () => {
-  const menu = Menu.buildFromTemplate([
-    {
-      label: 'Quit',
-      click() {
-        app.quit()
-      },
-      accelerator: 'CommandOrControl+Q',
-    }
-  ])
-
-  tray.setContextMenu(menu)
-}
-
 app.dock.hide()
 
 app.whenReady().then(() => {
   createTray()
-  // createMenu()
 })
+
+app.on('activate', () => {})
