@@ -1,6 +1,6 @@
 {
   "name": "TidyPaste",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tidy Pasting",
   "main": "main.js",
   "scripts": {
