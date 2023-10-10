@@ -1,6 +1,6 @@
 {
   "name": "TidyPaste",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tidy Pasting",
   "main": "main.js",
   "scripts": {
@@ -25,14 +25,14 @@
   "author": "jtvberg",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^24.6.1",
-    "electron-builder": "^24.4.0",
+    "electron": "^24.8.7",
+    "electron-builder": "^24.6.4",
     "@electron/notarize": "^2.1.0",
     "electron-reload": "^1.5.0",
-    "eslint": "^8.44.0"
+    "eslint": "^8.51.0"
   },
   "dependencies": {
-    "electron-updater": "^6.1.1"
+    "electron-updater": "^6.1.4"
   },
   "build": {
     "appId": "com.jtvberg.tidypaste",
