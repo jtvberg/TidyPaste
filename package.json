@@ -1,13 +1,13 @@
 {
   "name": "TidyPaste",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tidy Pasting",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "debug": "electron --inspect=7070 .",
     "break": "electron --inspect-brk=7070 .",
-    "buildMac": "electron-builder -m",
+    "buildMac": "electron-builder -m --x64 --arm64",
     "releaseMac": "electron-builder -m -p 'onTagOrDraft'"
   },
   "repository": {
@@ -25,7 +25,7 @@
   "author": "jtvberg",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^24.8.7",
+    "electron": "^26.4.0",
     "electron-builder": "^24.6.4",
     "@electron/notarize": "^2.1.0",
     "electron-reload": "^1.5.0",
