@@ -25,14 +25,14 @@
   "author": "jtvberg",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^33.2.1",
-    "electron-builder": "^25.1.8",
-    "@electron/notarize": "^2.2.0",
+    "electron": "^37.3.0",
+    "electron-builder": "^26.0.12",
+    "@electron/notarize": "^3.0.2",
     "electron-reload": "^1.5.0",
-    "eslint": "^9.17.0"
+    "eslint": "^9.33.0"
   },
   "dependencies": {
-    "electron-updater": "^6.1.7"
+    "electron-updater": "^6.6.2"
   },
   "build": {
     "appId": "com.jtvberg.tidypaste",
