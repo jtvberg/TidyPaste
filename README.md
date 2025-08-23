@@ -10,5 +10,5 @@ That's it.\
 A right-click on the icon will quit the app.
 
 ## But... But, why?
-I am tired of the paste-as menu, or the little arrow drop down after I paste, or other random nonsense that get's pasted, or not having those options show up at all and having to paste into a plain-text editor first.\
+I am tired of the paste-as menu, or the little arrow drop down after I paste, or other random nonsense that gets pasted, or not having those options show up at all and having to paste into a plain-text editor first.\
 The struggle is real.
